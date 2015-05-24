@@ -98,7 +98,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"50"
-		"ypos"					"0"
+		"ypos"					"3"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -110,7 +110,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudBold24"
+		"font"					"HudMedium18"
 		"fgcolor"				"75 75 75 255"
 	}
 }

@@ -80,7 +80,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"				"HeadsImage"
-		"xpos"						"36"
+		"xpos"						"37"
 		"ypos"						"15"
 		"zpos"						"2"
 		"wide"						"15"
@@ -96,8 +96,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"39"
-		"ypos"					"10"
+		"xpos"					"40"
+		"ypos"					"13"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -108,6 +108,6 @@
 		"labelText"				"%progresscount%"
 		"textAlignment"			"north"
 		"fgcolor"				"75 75 75 255"
-		"font"					"HudBold24"
+		"font"					"HudMedium18"
 	}
 }

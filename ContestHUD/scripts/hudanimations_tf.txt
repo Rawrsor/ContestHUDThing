@@ -244,6 +244,7 @@ event HudHealthDyingPulseLoop
 {
 	Animate   WarningExclamation						Alpha		"255"		Linear 0.0 0.25
 	Animate   WarningExclamation						Alpha		"0"		Linear 0.25 0.5
+	Animate   PlayerStatusHealthValue				fgcolor     "237 40 44 255"	Linear 0.0 0.01
 	RunEvent HudHealthDyingPulseLoop 1
 }
 
@@ -264,6 +265,10 @@ event HudLowAmmoPulse
 	Animate   WarningPanel2								Position   "c199 c51"	Deaccel 0.0 0.25
 	Animate 	 WarningPanel2							Alpha		"255"		Linear 0.0 0.125
 	Animate   WarningExclamation2					Alpha		"255"		Linear 0.0 0.25
+	Animate  AmmoInClip										fgcolor		"237 40 44 255"	Linear 0.0 0.001
+	Animate  AmmoInReserve										fgcolor		"237 40 44 255"	Linear 0.0 0.001
+	Animate  AmmoNoClip									fgcolor		"237 40 44 255"	Linear 0.0 0.001
+	
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -283,6 +288,9 @@ event HudLowAmmoPulseStop
 	Animate   WarningPanel2								Position   "c180 c51"	Deaccel 0.0 0.25
 	Animate 	 WarningPanel2							Alpha		"0"		Linear 0.0 0.125
 	Animate   WarningExclamation2						Alpha		"0"		Linear 0.0 0.25
+	Animate  AmmoInClip										fgcolor		"75 75 75 255"	Linear 0.0 0.001
+	Animate  AmmoInReserve										fgcolor		"75 75 75 255"	Linear 0.0 0.001
+	Animate  AmmoNoClip									fgcolor		"75 75 75 255"	Linear 0.0 0.01
 }
 
 //===========================================
@@ -743,7 +751,20 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	// empty
+	Animate		DamageBox1				Alpha	"255"		Linear	0.0 0.1
+	Animate		DamageBox2				Alpha	"255"		Linear	0.0 0.1
+	Animate		DamageBox3				Alpha	"255"		Linear	0.0 0.1
+	Animate		DamageBox4				Alpha	"255"		Linear	0.0 0.1
+	
+	RunEvent DamagedPlayerStop	0.1
+}
+
+event DamagedPlayerStop
+{
+	Animate		DamageBox1				Alpha	"0"		Linear	0.0 0.1
+	Animate		DamageBox2				Alpha	"0"		Linear	0.0 0.1
+	Animate		DamageBox3				Alpha	"0"		Linear	0.0 0.1
+	Animate		DamageBox4				Alpha	"0"		Linear	0.0 0.1
 }
 
 //===========================================

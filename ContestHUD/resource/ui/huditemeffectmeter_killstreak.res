@@ -17,7 +17,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"			"KillStreakIcon"
-		"xpos"					"50"
+		"xpos"					"53"
 		"ypos"					"7"
 		"zpos"					"6"
 		"wide"					"10"
@@ -96,8 +96,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"48"
-		"ypos"					"0"
+		"xpos"					"50"
+		"ypos"					"3"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -107,7 +107,7 @@
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"north"
-		"font"					"HudBold24"
+		"font"					"HudMedium18"
 		"fgcolor"				"75 75 75 255"
 	}
 }

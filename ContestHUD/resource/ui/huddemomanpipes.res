@@ -30,8 +30,8 @@
 		"zpos"					"0"
 		"wide"					"30"
 		"tall"						"55"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"fillcolor"				"75 75 75 255"
 	}
 	
@@ -80,7 +80,7 @@
 		"ypos"			"c51"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"60"
 		"visible"		"1"
 		
 		"PipeIcon"
@@ -97,7 +97,21 @@
 			"scaleImage"	"1"
 			"teambg_2"		"replay/thumbnails/Bomb"	
 			"teambg_3"		"replay/thumbnails/Bomb"	
-		}	
+		}
+		
+		"ThingBG3"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"			"ThingBG3"
+			"xpos"					"10"
+			"ypos"					"0"
+			"zpos"					"-1"
+			"wide"					"30"
+			"tall"						"55"
+			"visible"				"1"
+			"enabled"				"1"
+			"fillcolor"				"75 75 75 255"
+		}
 		
 		"NumPipesLabel"
 		{
@@ -154,7 +168,7 @@
 		"ypos"			"c51"
 		"zpos"			"1"
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"60"
 		"visible"		"1"
 		
 		"PipeIcon"
@@ -173,7 +187,21 @@
 			"teambg_3"		"replay/thumbnails/Bomb"
 			"alpha"				"150"
 		}
-
+		
+		"ThingBG4"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"			"ThingBG4"
+			"xpos"					"10"
+			"ypos"					"0"
+			"zpos"					"-1"
+			"wide"					"30"
+			"tall"						"55"
+			"visible"				"1"
+			"enabled"				"1"
+			"fillcolor"				"55 55 55 240"
+		}
+		
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"

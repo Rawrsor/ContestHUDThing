@@ -434,7 +434,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto Slab Bold"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -442,7 +442,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto Slab Bold"
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -451,7 +451,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto Slab Bold"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -460,7 +460,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto Slab Bold"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -469,7 +469,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto Slab Bold"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -478,7 +478,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto Slab Bold"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
@@ -2509,7 +2509,152 @@ Scheme
 			}
 		}
 		
+		//Text
 		
+		"HudText8"
+		{
+			"1"
+			{
+				"name"			"Roboto Slab Light"
+				"tall"				"8"
+				"antialias"	"1"
+			}
+		}
+		
+		"HudText12"
+		{
+			"1"
+			{
+				"name"			"Roboto Slab Light"
+				"tall"				"12"
+				"antialias"	"1"
+			}
+		}
+		
+		"HudText18"
+		{
+			"1"
+			{
+				"name"			"Roboto Slab Light"
+				"tall"				"18"
+				"antialias"	"1"
+			}
+		}
+		
+		"HudText24"
+		{
+			"1"
+			{
+				"name"			"Roboto Slab Light"
+				"tall"				"24"
+				"antialias"	"1"
+			}
+		}
+		
+		"HudText30"
+		{
+			"1"
+			{
+				"name"			"Roboto Slab Light"
+				"tall"				"30"
+				"antialias"	"1"
+			}
+		}
+		
+		"HudText36"
+		{
+			"1"
+			{
+				"name"			"Roboto Slab Light"
+				"tall"				"36"
+				"antialias"	"1"
+			}
+		}
+		
+		"HudText48"
+		{
+			"1"
+			{
+				"name"			"Roboto Slab Light"
+				"tall"				"48"
+				"antialias"	"1"
+			}
+		}
+		
+		//Text Bold
+		
+		"HudTextBold18"
+		{
+			"1"
+			{
+				"name"			"Roboto Slab Bold"
+				"tall"				"18"
+				"antialias"	"1"
+			}
+		}
+		
+		"HudTextBold24"
+		{
+			"1"
+			{
+				"name"			"Roboto Slab Bold"
+				"tall"				"24"
+				"antialias"	"1"
+			}
+		}
+		
+		"HudTextBold30"
+		{
+			"1"
+			{
+				"name"			"Roboto Slab Bold"
+				"tall"				"30"
+				"antialias"	"1"
+			}
+		}
+		
+		"HudTextBold36"
+		{
+			"1"
+			{
+				"name"			"Roboto Slab Bold"
+				"tall"				"36"
+				"antialias"	"1"
+			}
+		}
+		
+		"HudTextBold48"
+		{
+			"1"
+			{
+				"name"			"Roboto Slab Bold"
+				"tall"				"48"
+				"antialias"	"1"
+			}
+		}
+		
+		"HudTextBold56"
+		{
+			"1"
+			{
+				"name"			"Roboto Slab Bold"
+				"tall"				"56"
+				"antialias"	"1"
+			}
+		}
+		
+		"Crosshair"
+		{
+			"1"
+			{
+				"name" 		"Crosshairs Regular"
+				"tall"				"28"
+				"antialias"	"1"
+			}
+		}
+		
+		
+		////////////////////
 		"EconFontSmall"
 		{
 			"1"
@@ -4466,6 +4611,21 @@ Scheme
 		{
 			"font" 		"resource/fonts/AdventPro-SemiBold.ttf"
 			"name"		"Advent Pro SemiBold"
+		}
+		"10"
+		{
+			"font"		"resource/fonts/RobotoSlab-Light.ttf"
+			"name"		"Roboto Slab Light"
+		}
+		"11"
+		{
+			"font"		"resource/fonts/RobotoSlab-Bold.ttf"
+			"name"		"Roboto Slab Bold"
+		}
+		"12"
+		{
+			"font"		"resource/fonts/Crosshairs.ttf"
+			"name"		"Crosshairs Regular"
 		}
 	}
 }

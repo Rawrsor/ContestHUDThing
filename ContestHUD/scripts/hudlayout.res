@@ -1,5 +1,84 @@
 "Resource/HudLayout.res"
 {
+
+	Crosshair
+	{
+		"controlName"		"CExLabel"
+		"fieldName"			"Crosshair"
+		"visible"			"1"
+		"enabled"			"1"
+		"visible_minmode"	"0"
+		"enabled_minmode"	"0"
+		"xpos"				"0"			//Play around with x and y until it's centered
+		"ypos"				"3"			//Not all crosshairs/resolutions have the same placement
+		"zpos"				"0"
+		"wide"				"f0"
+		"tall"				"f0"
+		"font"				"Crosshair"
+		"labelText"			"9"			//Refer to resource/fonts/crosshairs.png for crosshairs
+		"fgcolor"			"233 233 233 255"
+		"textAlignment"		"center"
+	}
+
+	//DamageBox
+	DamageBox1
+	{
+		"controlName"		"ImagePanel"
+		"fieldName"			"DamageBox1"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"10"
+		"tall"						"f0"
+		"fillcolor"				"237 40 44 255"
+		"alpha"					"0"
+	}
+	
+	DamageBox2
+	{
+		"controlName"		"ImagePanel"
+		"fieldName"			"DamageBox2"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"						"10"
+		"fillcolor"				"237 40 44 255"
+		"alpha"					"0"
+	}
+	
+	DamageBox3
+	{
+		"controlName"		"ImagePanel"
+		"fieldName"			"DamageBox3"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"r10"
+		"ypos"					"0"
+		"wide"					"10"
+		"tall"						"f0"
+		"fillcolor"				"237 40 44 255"
+		"alpha"					"0"
+	}
+	
+	DamageBox4
+	{
+		"controlName"		"ImagePanel"
+		"fieldName"			"DamageBox4"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"470"
+		"wide"					"f0"
+		"tall"						"11"
+		"fillcolor"				"237 40 44 255"
+		"alpha"					"0"
+	}
+	
+	//DamageBox end
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -472,7 +551,7 @@ HudDeathNotice
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"HudMedium12"
+		"TextFont"		"HudText12"
 		
 		"TeamBlue"		"60 142 230 255"
 		"TeamRed"		"230 55 21 255"
