@@ -681,7 +681,7 @@
 		"fieldName"		"mapname"
 		"font"			"HudText8"
 		"labelText"		"%mapname%"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"xpos"			"239"
 		"ypos"			"368"
 		"zpos"			"4"

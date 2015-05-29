@@ -5,8 +5,8 @@
 	{
 		"controlName"		"CExLabel"
 		"fieldName"			"Crosshair"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"visible_minmode"	"0"
 		"enabled_minmode"	"0"
 		"xpos"				"0"			//Play around with x and y until it's centered
@@ -20,7 +20,7 @@
 		"textAlignment"		"center"
 	}
 
-	//DamageBox
+	//DamageIndicator
 	DamageBox1
 	{
 		"controlName"		"ImagePanel"
@@ -76,8 +76,7 @@
 		"fillcolor"				"237 40 44 255"
 		"alpha"					"0"
 	}
-	
-	//DamageBox end
+	//DamageIndicator end
 	
 	HudPlayerStatus
 	{
@@ -314,7 +313,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c110"
+		"ypos"		"c100"
 		"wide"	 	"252"
 		"tall"	 	"32"
 		"priority"	"40"
@@ -350,7 +349,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"311"
+		"ypos"		"c130"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
